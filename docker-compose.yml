@@ -10,7 +10,7 @@ services:
     ports:
       - "1337:1337"
     volumes:
-      - strapi_data:/opt/app
+      - strapi_uploads:/opt/app/public/uploads
 
 volumes:
-  strapi_data:
+  strapi_uploads:
