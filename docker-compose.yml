@@ -1,8 +1,6 @@
 services:
   strapi:
-    build:
-      context: ./strapi-app
-      dockerfile: Dockerfile
+    image: mhhuzaifa/strapi-cms:latest
     container_name: strapi-app
     restart: always
     env_file:
